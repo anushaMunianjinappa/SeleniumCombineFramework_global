@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="sheet" value="Sheet1"/>
+    <classes>
+      <class name="contacts.ST_CONTACTS1_02">
+        <methods>
+          <include name="signOutFromApplication"/>
+          <include name="closingTheBrowser"/>
+          <include name="launchingBrowser"/>
+          <include name="Creating_a_contact_with_valid_details"/>
+          <include name="navigatingtoApplication"/>
+        </methods>
+      </class> <!-- contacts.ST_CONTACTS1_02 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
