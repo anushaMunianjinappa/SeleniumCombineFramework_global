@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import generics.Baseclass;
 
-public class FT_CONTACTS_01 extends Baseclass {
+public class FT_CONTACTS_01_test extends Baseclass {
 @Test
 	public void Creating_a_contact_with_valid_details_ft() throws InterruptedException 
 	{
@@ -15,7 +15,7 @@ public class FT_CONTACTS_01 extends Baseclass {
 	
 	//contact.getFirstNameTextField().sendKeys("mamatha");
 	
-	contact.getLastNameTextField().sendKeys("p");
+	//contact.getLastNameTextField().sendKeys("p");
 	
 	//contact.getCompanyTextField().sendKeys("qsp");
 	

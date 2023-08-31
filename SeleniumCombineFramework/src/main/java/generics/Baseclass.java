@@ -36,9 +36,10 @@ public class Baseclass {
 	public TroubleTicketPage troubleticket;
 	public EmailPage email;
 	public DocumentsPage documents;
+	
 	@BeforeClass
 	public void launchingBrowser()
-	{
+	{ 
 		property = new PropertyUtility();
 		utility = new WebDriverUtility();
 
